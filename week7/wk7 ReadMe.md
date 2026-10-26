@@ -18,8 +18,7 @@ This Lab builds a small Retrieval-Augmented Generation (RAG) system. The noteboo
 
 - **Default demo:** Fictional TechGadgets FAQ entries and a customer policy handbook
   covering returns, shipping, warranties, and discounts.
-- **Domain playground:** A Dragon Ball rulebook excerpt, chunked at different sizes to
-  test questions about victory conditions.
+- **Domain playground:** A Dragon Ball CCG rulebook excerpt, chunked at different sizes to test questions about victory conditions.
 - The notebook also includes deliberately irrelevant or unanswerable questions to show
   how retrieval and generation can fail.
 
