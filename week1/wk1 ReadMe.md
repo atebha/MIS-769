@@ -2,7 +2,7 @@
 
 ## Overview
 
-`HW_1.ipynb` is an introductory exploratory data analysis (EDA) notebook. It loads a Kaggle dataset of Netflix titles into a pandas DataFrame, inspects its structure and data quality, and explores the mix of movies and TV shows, content ratings, and movie runtimes.
+`HW01.ipynb` is an introductory exploratory data analysis (EDA) notebook. It loads a Kaggle dataset of Netflix titles into a pandas DataFrame, inspects its structure and data quality, and explores the mix of movies and TV shows, content ratings, and movie runtimes.
 
 ## What it does
 
@@ -17,14 +17,17 @@
 
 The notebook uses the Kaggle Netflix Movies and TV Shows dataset. Its saved output shows 8,807 records and 12 columns, including title, type, director, cast, country, release year, rating, duration, genres, and description.
 
-The notebook expects the CSV to be available at:
+The notebook expects the CSV to be available at a google drive path:
 
 `/colab_notebooks/MyDrive/Colab Notebooks/netflix_titles.csv`
+
+I have also included the raw CSV data as well in this project folder. 
 
 ## How to run
 
 1. Open `HW_1.ipynb` in Google Colab.
 2. Download the Netflix titles CSV dataset from Kaggle and place `netflix_titles.csv` in the `Colab Notebooks` folder in Google Drive.
+    a. Or just load the csv file directly.
 3. Run the cells from top to bottom. The notebook mounts Google Drive at `/colab_notebooks` and reads the CSV from the path above.
 4. To run locally instead, install the notebook dependencies and update the data-loading cell to point to your local CSV file. The current drive-mount cell uses the Google Colab-only `google.colab` package.
 
